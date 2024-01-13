@@ -19,11 +19,12 @@ body {
     align-items: center;
     gap: 24px;
     width: 1200px;
+    margin-bottom: 24px;
 }
 
 .header-links {
     display: flex;
-    gap: 18px;
+    gap: 32px;
     justify-content: space-between;
 }
 
@@ -33,7 +34,38 @@ body {
     font-weight: 800;
 }
 
-a {
+.hero {
+    display: flex;
+    width: 1200px;
+    margin: 72px 0;
+}
+
+.hero-main {
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 48px;
+    margin-bottom: 24px;
+}
+
+a,
+.hero-secondary {
     color: #e5e7eb;
     font-size: 18px;
+    margin-bottom: 18px;
+}
+
+.hero-fine-print {
+    color: lightgray;
+    font-size: 12px;
+    margin-bottom: 48px;
+}
+
+.left-content button {
+    background-color: #3882f6;
+    border: none;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 4px;
+    padding: 8px 24px;
 }
