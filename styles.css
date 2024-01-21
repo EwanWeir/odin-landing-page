@@ -123,3 +123,25 @@ a,
     color: #515457;
     margin-bottom: 64px;
 }
+
+.quote-section {
+    padding: 128px 48px;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    text-align: left;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+    width: 900px;
+    margin-bottom: 18px;
+}
+
+.quote-credit {
+    font-size: 24px;
+    font-weight: 900;
+    text-align: right;
+    width: 750px;
+}
