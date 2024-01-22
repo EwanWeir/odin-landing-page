@@ -58,9 +58,13 @@ body {
 }
 
 a,
-.hero-secondary {
+.hero-secondary,
+.sign-up-text-secondary {
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.hero-secondary {
     margin-bottom: 18px;
 }
 
@@ -144,4 +148,36 @@ a,
     font-weight: 900;
     text-align: right;
     width: 750px;
+}
+
+.call-to-action {
+    padding: 96px 48px;
+}
+
+.sign-up-box {
+    background-color: #3882f6;
+    border-radius: 12px;
+    width: 1000px;
+    min-height: 50px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.sign-up-box .button {
+    background-color: #3882f6;
+    border: none;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 4px;
+    border: 2px solid white;
+    padding: 8px 24px;
+}
+.sign-up-text-bold {
+    font-size: 24px;
+    font-weight: 900;
+    color: #f9faf8;
 }
