@@ -59,7 +59,8 @@ body {
 
 a,
 .hero-secondary,
-.sign-up-text-secondary {
+.sign-up-text-secondary,
+.footer-text {
     color: #e5e7eb;
     font-size: 18px;
 }
@@ -180,4 +181,13 @@ a,
     font-size: 24px;
     font-weight: 900;
     color: #f9faf8;
+}
+
+.footer {
+    padding: 0 48px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
 }
